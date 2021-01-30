@@ -1,0 +1,26 @@
+.bloco{
+
+margin: auto;
+
+width: 50%;
+
+border: 1px solid grey;
+
+padding: 2%;
+
+box-sizing: border-box;
+
+margin-top: 3%;
+}
+
+.title{
+
+    margin:auto;
+    width:56%;
+   
+}
+
+.color-title{
+
+    background-color: orangered;
+}
