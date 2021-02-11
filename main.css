@@ -11,16 +11,148 @@ padding: 2%;
 box-sizing: border-box;
 
 margin-top: 3%;
+
+display: flow-root;
+
 }
 
 .title{
 
-    margin:auto;
-    width:56%;
+    text-align: center;
+    width:auto;
+    background-color: orangered;
    
 }
 
-.color-title{
+.links{
+    text-align: center;
+    font-size: 30px;
+}
 
-    background-color: orangered;
+.txt{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size:35px;
+   
+    
+}
+
+.float-content{
+
+    border: 1px solid red;
+
+    width: 300px;
+
+    height:auto;
+    
+    float:right;
+    
+
+}
+
+
+
+
+.main-content{
+    width: 10%;
+   
+    position: relative;
+    left: 20%;
+    
+    background-color: red;
+   
+
+}
+
+
+.position-fixed{
+
+    background-color: red;
+    position: fixed;
+    width: 200px;
+    height: 200px;
+
+    left: 5%;
+    top: 10%;
+
+}
+
+.div-display{
+
+    margin: 5px;
+    width: 100px;
+
+    height: 100px;
+
+    background-color: blue;
+
+    border:5px solid black;
+}
+
+
+a{
+
+    text-decoration: none;
+    color:powderblue;
+}
+
+.link-class:hover{
+
+    color: orangered;
+
+}
+
+a:visited{
+
+    color:olivedrab;
+
+}
+
+
+.background-img{
+
+    background: url(download.jpg);
+    width: 320px;
+    height: 159px;
+
+}
+
+.background-img h2{
+
+    background: rgba(255,255,255,0.5);
+
+}
+
+
+.box-shadow-text{
+
+    background: yellowgreen;
+    width: 300px;
+    height: 100px;
+    text-shadow:  7px  7px rgba(0,0,0,0.5);
+
+}
+
+
+@keyframes animation-box{
+
+    from {background-color:red; left: 0px;}
+    to{background-color: yellow;border-radius: 300px; left: 300px;}
+
+}
+
+.box-animation:active{
+
+    animation-name: animation-box;
+    animation-duration: 2s;
+    animation-iteration-count: 10;
+    animation-direction:alternate;
+
+}
+.box-animation{
+    position:relative;
+    background-color:red;
+    width: 300px; 
+    height: 300px;
+
 }

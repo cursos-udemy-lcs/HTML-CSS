@@ -15,9 +15,9 @@
 <body>
 
     <div class="bloco">
-        <div class="color-title">
-            <h1 class="title">Tags formatação de texto </h1>
-        </div>
+
+        <h1 class="title">Tags formatação de texto </h1>
+
         <hr>
 
         <!-- tag hader  -->
@@ -47,14 +47,414 @@
 
     <div class="bloco">
         <div class="color-title">
-            <h1 class="title">Tabela não ordenada  </h1>
+            <h1 class="title">lista não ordenada </h1>
         </div>
         <hr>
+        <ul>
+            <li>notebook</li>
+            <li>desktop</li>
+            <li>monitor</li>
+
+        </ul>
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">lista ordenada </h1>
+        </div>
+        <hr>
+        <ol>
+            <li>notebook</li>
+            <li>desktop</li>
+            <li>monitor</li>
+
+        </ol>
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Imagem </h1>
+        </div>
+        <hr>
+
+        <img class="img-style" src="download.jpg">
+
+
+    </div>
+
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Imagem com transparencia </h1>
+        </div>
+        <hr>
+
+        <div class="background-img">
+            <!-- a propriedade de transparencia RGBA() == 0.5, se for > 0 já não é mais transparente -->
+            <h2>Texto background transparente</h2>
+
+        </div>
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Links </h1>
+        </div>
+        <hr>
+
+        <a href="https://www.youtube.com/watch?v=lcgLpFACdrQ&list=RDlcgLpFACdrQ&start_radio=1">click aqui !</a>
+
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">tabela </h1>
+        </div>
+        <hr>
+        <!-- Linha == <tr> Coluna == <td> -->
+        <table border="1px" cellpadding="5px" cellspacing="0" width="100%">
+            <tr>
+                <td>Coluna1</td>
+                <td>coluna2</td>
+                <td>Coluna3</td>
+                <td>coluna4</td>
+                <td>Coluna5</td>
+                <td>coluna6</td>
+            </tr>
+
+
+
+            <tr>
+                <td colspan="3">total</td>
+                <td>$120</td>
+            </tr>
+
+            <tr>
+                <td>Desconto</td>
+                <td>Cupom1: -$10</td>
+            </tr>
+
+            <tr>
+                <td colspan="6">coluna1</td>
+            </tr>
+        </table>
+
+
+    </div>
+
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Form</h1>
+        </div>
+        <hr>
+        <form>
+            Login: <br />
+            <input type="text" placeholder="Escreva o login" name="login" /><br>
+            Senha: <br />
+            <input type="password" placeholder="Escreva a senha" name="senha" /> <br>
+
+            <input type="radio" name="sexo"> Masculinho <br>
+            <input type="radio" name="sexo"> Feminino <br>
+            <br>
+            Interesses:<br>
+            <input type="checkbox"> Futebol<br>
+            <input type="checkbox"> metal<br>
+            <input type="checkbox"> bebida<br>
+            <input type="checkbox"> carros<br>
+            Estados:
+            <select>
+                <option>
+                    SP
+                </option>
+                <option>
+                    MG
+                </option>
+                <option>
+                    RJ
+                </option>
+                <option>
+                    RS
+                </option>
+            </select>
+            <br>
+            Observaçoes: <br>
+            <textarea></textarea>
+            <br>
+            <input type="submit" value="Login"><br>
+        </form>
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">entidades especiais</h1>
+        </div>
+        <hr>
+        espaço sem quebra:<br>
+        Lucas &nbsp &nbsp &nbsp &nbsp vidotti dos santos
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Formatação de font: </h1>
+        </div>
+        <hr>
+        <p class="txt">Texto formatado</p>
+    </div>
+
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Propriedade Flutuante: </h1>
+        </div>
+        <hr>
+        <div class="float-content">
+
+            <!-- A propriedade  display: flow-root; na classe Bloco alinho a div filha "float-content" -->
+            <!-- a propriedade float preenche o espaço -->
+            <!-- para que o conteudo não flutue em volta é só usar a propriedade clear:both -->
+            <!-- Pra deixar um do lado do outro == um float não sobrescreve o outro !!!! -->
+
+            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Ut consectetur libero risus, id tempus mi lacinia viverra.
+                Nam purus justo, finibus in est non, sagittis posuere est.
+                Suspendisse ac justo est. Maecenas at lacinia augue. Praesent
+                imperdiet condimentum feugiat. In lobortis sagittis commodo.
+                In tristique ullamcorper est et auctor.
+
+
+            </p>
+
+
+        </div>
+    </div>
+
+
+
+
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Posicionamento </h1>
+        </div>
+        <hr>
+
+        <div class="main-content">
+            <!-- POsition relative fica relativo a posição INICIAL e cria um novo contexto-->
+            conteudo
+
+
+
+        </div>
+
+
 
 
 
 
     </div>
+
+
+    <div class="position-fixed">
+
+        <!-- position fixed fica fixa na tela de visualização e tem movimentação relativa a posição inicial -->
+
+
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Display: block</h1>
+        </div>
+        <hr>
+        <!-- a propriedade display block fica um em baixo do outro "style defalt" -->
+        <div style="display: block;">
+            <div class="div-display">
+
+            </div>
+
+            <div class="div-display">
+
+            </div>
+
+            <div class="div-display">
+
+            </div>
+
+        </div>
+
+
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Display: inline e flex</h1>
+        </div>
+        <hr>
+
+        <div style="display: flex;">
+            <div class="div-display">
+
+            </div>
+
+            <div class="div-display">
+
+            </div>
+
+            <div class="div-display">
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Texto com sombra</h1>
+        </div>
+        <hr>
+
+        <div class="box-shadow-text">
+            <h1>Texto com sombra</h1>
+
+        </div>
+
+    </div>
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">inputs especificos: </h1>
+        </div>
+        <hr>
+
+        <form>
+
+            <!-- Associar Label com os elementos - Boa prática -->
+            <label for="nome">Nome</label>
+            <input type="text" id="nome">
+            <br><br>
+
+            <!-- Novos Inputs e atributos HTML 5 -->
+            <!-- Email Atributo required -->
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="teste@teste.com.br" autofocus>
+            <br><br>
+
+            <!-- Número -->
+            <label for="numero">Número</label>
+            <input type="number" id="numero" min="5" max="10" step="2">
+            <br><br>
+
+            <!-- Url -->
+            <label for="url">Url</label>
+            <input type="url" id="url" placeholder="ex: http://wwww.">
+            <br><br>
+
+            <!-- Pesquisar -->
+            <label for="pesquisa">pesquisa</label>
+            <input type="search" id="pesquisa" placeholder="ex: digite algo...">
+            <br><br>
+
+            <!-- Range -->
+            <label for="range">Range</label>
+            <input type="range" id="range" min="1" max="10" value="5">
+            <br><br>
+
+            <!-- Data -->
+            <label for="data">Data</label>
+            <input type="date" id="data">
+            <br><br>
+
+            <!-- Cor -->
+            <label for="cor">Cor</label>
+            <input type="color" id="cor">
+            <br><br>
+
+            <input type="submit" value="enviar">
+        </form>
+
+
+    </div>
+
+
+
+
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Animações</h1>
+        </div>
+        <hr>
+        <h2>Acão active !!!</h2>
+        <div class="box-animation"> 
+
+
+        </div>
+
+      
+    </div>
+
+
+
+    
+
+
+
+    <!-- Links uteis !!!------------------------------------------------------------------------ -->
+
+    <div class="bloco">
+        <div class="color-title">
+            <h1 class="title">Links uteis: </h1>
+        </div>
+        <hr>
+        <div class="links">
+            <a href="https://www.fiap.com.br/2014/08/14/novas-tags-do-html5-e-sua-contribuicao-na-semantica-dos-textos/?gclid=EAIaIQobChMI2cC_o63g7gIVhoiRCh0BEQE6EAAYASAAEgKSZPD_BwE"
+                class="link-class">Tags Semanticas </a><br>
+            <a href=" http://www.w3schools.com/css/css_font.asp" class="link-class">Borda </a> <br>
+
+            <a href="https://www.w3schools.com/css/css_border.asp" class="link-class"> Tipos de fontes </a> <br>
+            <a href="     http://www.w3schools.com/cssref/css_websafe_fonts.asp" class="link-class">Fontes seguras para
+                utilizar em seus
+                projetos </a> <br>
+            <a href=" http://html-color-codes.info/Codigos-de-Cores-HTML/" class="link-class"> Códigos de cores html
+                Online</a> <br>
+            <a href="https://medium.com/collabcode/pare-de-chutar-e-aprenda-como-funciona-o-float-left-e-float-right-e-sua-trupe-a4f4161114c7"
+                class="link-class">
+                Propriedade float</a> <br>
+
+            <a href="https://necolas.github.io/normalize.css/" class="link-class"> Normalize CSS </a> <br>
+            <a href="http://www.w3schools.com/cssref/css3_pr_box-sizing.asp" class="link-class"> Propriedade box-sizing
+            </a> <br>
+            <a href="http://www.w3schools.com/css/css3_borders.asp" class="link-class"> Cantos arredondados </a> <br>
+            <a href="http://www.w3schools.com/css/css3_colors.asp" class="link-class"> Transparências </a> <br>
+            <a href="http://www.w3schools.com/css/css3_gradients.asp" class="link-class"> Degradês </a> <br>
+
+            <a href="http://www.w3schools.com/cssref/css3_pr_text-shadow.asp" class="link-class"> Sombras em textos </a>
+            <br>
+            <a href="http://www.w3schools.com/cssref/css3_pr_box-shadow.asp" class="link-class"> Sombras em caixas </a>
+            <br>
+        </div>
+    </div>
+
+
+
+
+
 </body>
 
 </html>
